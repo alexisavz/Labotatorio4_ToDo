@@ -34,9 +34,10 @@ function TodoMark() {
   let todos = document.getElementsByName("todo");
   for (let i = 0; i < todos.length; i++) {
     todos[i].checked = true;
+  }
 }
 
 function TodoDel() {
   let list = document.getElementById("todoList");
-  list.innerHTML = "";
+  list.innerHTML = ""
 }
